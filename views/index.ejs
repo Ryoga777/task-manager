@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista della Spesa | by Roberto Romagnoli</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- Una semplice App del tipo "Task Manager" per la lista della spesa -->
+  <div class="container">
+    <div class="header">
+      <h2>Lista della spesa del giorno</h2>
+      <div class="clear">
+        <i class="fa fa-refresh" aria-hidden="true"></i>
+      </div>
+      <div class="date" id="date"></div>
+    </div>
+
+    <div class="content">
+        <ul id="list"></ul>
+    </div>
+     
+    <div class="add-task">
+        <i class="fa fa-plus-circle"></i>
+        <input type="text" id="input" placeholder="Cosa ti serve?">  
+    </div>
+  </div>
+  <script src="javascripts/task-manager.js"></script>
+</body>
+
+</html>
